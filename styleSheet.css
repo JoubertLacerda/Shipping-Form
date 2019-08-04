@@ -3,6 +3,24 @@ body{
     color: black;
     background-color: azure;
 }
-title{
+header{
     text-align: center;
+}
+.label{
+    text-align: left;
+}
+.input-field{
+height: 20px;
+width: 200px;
+margin-top: 8px;
+margin-bottom: 8px;
+text-align: left;
+}
+#item{
+    width: 60px;
+}
+#submit{
+    width: 100px;
+    height: 80px;
+    border-radius:10px;
 }

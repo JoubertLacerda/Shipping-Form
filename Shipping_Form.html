@@ -10,13 +10,14 @@
     <header>
         <h1>Domestic Shipping Form</h1>
     </header>
-
+<div id="outter">
+    <p>This is a <b>DOMESTIC</b> Shipping form, to be used within the country.</p>
     <form id="shipping-form">
         <div class="rowTab">
             <div class="label">
                 <p>Please note that all field with an * are required fields.</p>
                 <label id="sender-name" for="sending">
-                    *Please enter your Details?
+                    *Please enter your Details
                 </label>
             </div>
             <div class="rightTab">
@@ -29,7 +30,7 @@
         <div id="rowTab">
             <div class="label">
                 <label id="receivers-label" for="receiving">
-                    *Contacts Details?
+                    *Contacts Details
                 </label>
             </div>
             <div id="rightTab">
@@ -46,7 +47,7 @@
                 </label>
             </div>
             <div id="rightTab">
-                <input type="text" name="email-address" id="email" class="input-field"
+                <input type="email" name="email-address" id="email" class="input-field"
                     placeholder="Contacts Emails address" required>
             </div>
         </div>
@@ -85,16 +86,21 @@
         <div id="rowTab">
             <div class="label">
                 <label id="item-price" for="worth">
-                    What is the item(s) worth in USD?
+                    What is the item(s) worth in USD(if known)?
                 </label>
             </div>
             <div id="righTab">
                 <input type="number" name="item-price" id="worth" class="input-field" placeholder="Worth in USD">
             </div>
         </div>
-        <div></div>
-        <button id="submit" type="submit">Submit your Form</button>
+        <div class="button">
+            <button id="submit" type="submit">Submit your Form</button>
+        </div>
     </form>
+</div>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
