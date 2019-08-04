@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shipping form</title>
+    <link rel="styleSheet" type="text/css" href="styleSheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>Domestic Shipping Form</h1>
+    </header>
+
+    <form id="shipping-form">
+        <div class="rowTab">
+            <div class="label">
+                <p>Please note that all field with an * are required fields.</p>
+                <label id="sender-name" for="sending">
+                    *Please enter your Details?
+                </label>
+            </div>
+            <div class="rightTab">
+                <input type="text" name="senders-label" id="sending" class="input-field"
+                    placeholder="Your Full name here" required>
+                <input type="text" name="senders-label" id="sending" class="input-field"
+                    placeholder="Your Email address" required>
+            </div>
+        </div>
+        <div id="rowTab">
+            <div class="label">
+                <label id="receivers-label" for="receiving">
+                    *Contacts Details?
+                </label>
+            </div>
+            <div id="rightTab">
+                <input type="text" name="receiver-name" id="receiving" class="input-field"
+                    placeholder="Contacts Full Name" required>
+                <input type="text" name="receiver-name" id="receiving" class="input-field" placeholder="Company Name"
+                    required>
+            </div>
+        </div>
+        <div id="rowTab">
+            <div class="label">
+                <label id="email-label" for="email">
+                    *Receivers Email address.
+                </label>
+            </div>
+            <div id="rightTab">
+                <input type="text" name="email-address" id="email" class="input-field"
+                    placeholder="Contacts Emails address" required>
+            </div>
+        </div>
+        <div id="rowTab">
+            <div class="label">
+                <label id="address-label" for="address">
+                    *Where is this going to? Shipping address.
+                </label>
+            </div>
+            <div id="righTab">
+                <input type="text" name="shipping-address" id="address" class="input-field" placeholder="Address 1"
+                    required>
+                <input type="text" name="shipping-address" id="address" class="input-field" placeholder="Address 2">
+                <input type="text" name="shipping-address" id="address" class="input-field" placeholder="Suburb"
+                    required>
+                <input type="text" name="shipping-address" id="address" class="input-field" placeholder="State"
+                    required>
+                <input type="text" name="shipping-address" id="address" class="input-field" placeholder="Country"
+                    required>
+            </div>
+        </div>
+        <div id="rowTab">
+            <div class="label">
+                <label id="item-details" for="item">
+                    *Enter details of Item.
+                </label>
+            </div>
+            <div id="righTab">
+                <input type="number" name="item-details" id="item" class="input-field" placeholder="Height" required>
+                x
+                <input type="number" name="item-details" id="item" class="input-field" placeholder="Width" required>
+                x
+                <input type="number" name="item-details" id="item" class="input-field" placeholder="Length" required>
+            </div>
+        </div>
+        <div id="rowTab">
+            <div class="label">
+                <label id="item-price" for="worth">
+                    What is the item(s) worth in USD?
+                </label>
+            </div>
+            <div id="righTab">
+                <input type="number" name="item-price" id="worth" class="input-field" placeholder="Worth in USD">
+            </div>
+        </div>
+        <div></div>
+        <button id="submit" type="submit">Submit your Form</button>
+    </form>
+</body>
+
+</html>
